@@ -1,16 +1,17 @@
 from function import*
 
+#task 1
 Hello_World()
 
-while True:
-    try:
-        arr = []
-        for i in input("PLease, enter a list of number: ").split():
-            arr.append(int(i))
-        break
-    except ValueError:
-        print("ERROR, you didn't enter a number!!!")
+#task 2
 
-parity(arr)
+parity()
+
+#task 3
+mini_calculate()
+
+
+
+
 
 
